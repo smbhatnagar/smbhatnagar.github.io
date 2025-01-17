@@ -1,1 +1,2 @@
 # smbhatnagar.github.io
+Academic Integrity is important to professors as it assures the professors that the student understood the conccept and it is important for student as it helps them to learn & understand the skill
