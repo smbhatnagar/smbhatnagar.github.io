@@ -1,3 +1,4 @@
+## ERD of Nike store using Mermaid and Markdown language
 '''mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
@@ -39,3 +40,25 @@ erDiagram
         Integer stock_level
     }
 '''
+#### Customer Entity
+   > It contains customer details.
+     Customer can place _Zero or Many_ orders.
+#### Products Entity
+   > It contains product details.
+     One product can have _Zero or Many_ orders.
+#### Order Entity
+   > It contains order details.
+     One order can have _One or Many_ products.
+#### Order Product Entity
+   > Corresponds to order related to products
+     Since Products to Order is _Many to Many_ relationship so breaking down into a sub entity Order Product to map one to many relationship
+#### Inventory
+   > Contains products and their quantity details
+     Each inventory has _One to One_ mapping with Product
+
+
+
+
+
+
+
