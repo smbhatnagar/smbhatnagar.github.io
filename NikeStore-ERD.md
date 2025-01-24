@@ -1,5 +1,5 @@
 ## ERD of Nike store using Mermaid and Markdown language
-'''mermaid
+```mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER{
@@ -39,7 +39,7 @@ erDiagram
         String prod_id FK
         Integer stock_level
     }
-'''
+```
 #### Customer Entity
    > It contains customer details.
      Customer can place _Zero or Many_ orders.
